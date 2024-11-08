@@ -1,0 +1,6 @@
+What are Generics in java?
+Generics in java are a way to create classes , interfaces and methods that operate on types specifed at runtime rather than compile time.With generics , we can create more reusable code by not specifyinng exactly which data type will be handled at the time of definition of class or method or interface.It doesnot sacrifices the type-safety but still gives flexibility.
+
+Why generics?
+->Helps create type-safe collections and allows classes and methods to operate on different data types(objects) with out casting or facing runtime error.
+->Avoids specifying a data type during compile time.
