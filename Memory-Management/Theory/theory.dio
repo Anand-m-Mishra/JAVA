@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="lo9bxxKz2GWVS7oFTmNH" name="Page-1">
+        <mxGraphModel dx="857" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="339" width="491" height="491" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="stack" style="rounded=0;whiteSpace=wrap;html=1;rotation=-91;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="stack" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="380" width="60" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="590" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="680" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="680"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="object" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="650" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="all instance varialbles of the class" style="swimlane;startSize=100;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="630" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="method declarations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9">
+                    <mxGeometry x="20" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="object" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="690" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="690" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="add" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="510" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="local variables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="650" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="948" as="sourcePoint"/>
+                        <mxPoint x="540" y="952" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="reference variable" placeholders="1" name="Variable" id="20">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="220" y="570" width="80" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="heap" placeholders="1" name="Variable" id="21">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="500" y="630" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="JVM" placeholders="1" name="Variable" id="22">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="470" y="380" width="130" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="reference variable" placeholders="1" name="Variable" id="23">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="220" y="390" width="80" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="24" value="local variables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="470" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <UserObject label="Each&amp;nbsp; method form there separate stack memory in JVM" placeholders="1" name="Variable" id="25">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="100" y="177.1" width="310" height="100" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="27" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+                    <mxGeometry x="87.9" y="220" width="12.1" height="14.2" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+                    <mxGeometry x="87.9" y="260" width="12.1" height="14.2" as="geometry"/>
+                </mxCell>
+                <UserObject label="objects are created in the heap but thte object referense variable is stored in stack" placeholders="1" name="Variable" id="30">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="100" y="257.1" width="350" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
